@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  node:
+    container_name: nodeBox
+    build:
+      context: .
+      dockerfile: Dockerfile
+#    volumes:
+#      - ./functions:/functions
+#      - ../nodeBox:/index_rt
+    ports:
+      - 8085:8085
+      - 8084:8084
+    command: npm run start
+  editor:
+    container_name: editor
+    build:
+      context: .
+      dockerfile: editor/Dockerfile
+    environment:
+      - NODE_HOST=http://localhost:8084
+      - ENDPOINT=http://localhost:3000/?v=1&method=GET&endpoint=http://localhost:8085
+    ports:
+      - "8080:80"
