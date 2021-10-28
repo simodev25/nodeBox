@@ -12,7 +12,7 @@ https://github.com/jojowwbb/PenEditor
  
 <p align="center">
   <a href="https://github.com/simodev25/nodeBox">
-    <img src="https://user-images.githubusercontent.com/3184484/139304246-a6932924-0904-4568-82ca-6733e4951200.png" alt="Logo" width="86" height="86"/>
+    <img src="https://user-images.githubusercontent.com/3184484/139304246-a6932924-0904-4568-82ca-6733e4951200.png" />
   </a>
 </p>
 

@@ -1,6 +1,11 @@
 version: '3.7'
 
 services:
+  hoppscotch:
+    container_name: hoppscotch
+    image: hoppscotch/hoppscotch:latest
+    ports:
+      - 3000:3000
   node:
     container_name: nodeBox
     build:
