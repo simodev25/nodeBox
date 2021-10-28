@@ -8,16 +8,13 @@ https://github.com/jojowwbb/PenEditor
 
 
 
+  <h3 align="center">NodeBoxEditor</h3>
+ 
 <p align="center">
-  <a href="https://github.com/jojowwbb/PenEditor">
-    <img src="https://z3.ax1x.com/2021/04/01/cV436J.png" alt="Logo" width="86" height="86"/>
+  <a href="https://github.com/simodev25/nodeBox">
+    <img src="https://user-images.githubusercontent.com/3184484/139304246-a6932924-0904-4568-82ca-6733e4951200.png" alt="Logo" width="86" height="86"/>
   </a>
 </p>
-  <h3 align="center">NodeBoxEditor</h3>
-
-
-![](../../../Downloads/nodeboxEditor.png)
- 
 
 
 ## Install
