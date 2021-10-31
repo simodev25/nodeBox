@@ -11,9 +11,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-#    volumes:
-#      - ./functions:/functions
-#      - ../nodeBox:/index_rt
     ports:
       - 8085:8085
       - 8084:8084
