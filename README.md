@@ -42,3 +42,4 @@ $ docker-compose  up  -d --build
 ## Thanks
 
 -   [PenEditor](https://github.com/jojowwbb/PenEditor)
+-   [Hoppscotch](https://github.com/hoppscotch/hoppscotch)
